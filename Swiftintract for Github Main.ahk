@@ -17,6 +17,9 @@ githubExe := "ahk_exe GitHubDesktop.exe"
 
 SendInput '{Ctrl Down}g{Ctrl up}'
 SendInput 'add'
+Sleep(50)
+SendInput '{Ctrl Down}{Enter Down}{Enter up}{Ctrl up}'
+Sleep(50)
 SendInput '{Ctrl Down}p{Ctrl up}'
 
 
