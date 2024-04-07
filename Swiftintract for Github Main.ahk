@@ -28,7 +28,7 @@ global TemporaryDisableSmartDeleteFuture := 0
     SendInput 'add'
     Sleep(50)
     SendInput '{Ctrl Down}{Enter Down}{Enter up}{Ctrl up}'
-    Sleep(550)
+    Sleep(1000)
     SendInput '{Ctrl Down}p{Ctrl up}'
 
 
@@ -45,7 +45,7 @@ global TemporaryDisableSmartDeleteFuture := 0
 
 
 ::add::{
-    SendInput 'Add'
+    SendInput 'add'
     commitMessageContainer.Push("Add") 
 
 }
